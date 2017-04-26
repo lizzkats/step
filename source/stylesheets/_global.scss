@@ -1,3 +1,8 @@
-body {
-  background-color: #1c2a37;
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i');
+
+$content-font: 'PT Sans', sans-serif;
+$white-text: #f0f0f0;
+
+input:focus {
+  outline: none;
 }
