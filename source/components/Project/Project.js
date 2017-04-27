@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router'
 import Heading from '../reusable/Heading/Heading'
 import RowList from '../reusable/Row/RowList'
 import FooterContainer from '../reusable/Footer/FooterContainer'
-import { Link } from 'react-router'
+import Icon from '../reusable/Icon/Icon'
 
 const Project = ({ couldDos, project }) => (
   <div className='project-container' >
     <Heading type='project' text={ project.text } />
     <RowList type='could-do' items={ couldDos } />
-    <Link to='/project'><Icon type='back' /></Link>
+    <Link to='/*'><Icon type='back' /></Link>
     <FooterContainer type='could-do' />
   </div>
 )
