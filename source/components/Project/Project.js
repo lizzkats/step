@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 import Heading from '../reusable/Heading/Heading'
 import RowList from '../reusable/Row/RowList'
 import FooterContainer from '../reusable/Footer/FooterContainer'
