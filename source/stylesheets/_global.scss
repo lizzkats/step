@@ -2,7 +2,14 @@
 
 $content-font: 'PT Sans', sans-serif;
 $white-text: #f0f0f0;
+$default-font-size: 32px;
+$darkblue-background: #1f2f3e;
+$divider-border: solid 1px #35404b;
 
 input:focus {
   outline: none;
+}
+
+body {
+  position: relative;
 }
