@@ -8,8 +8,8 @@ import Icon from '../reusable/Icon/Icon'
 const Project = ({ couldDos, project }) => (
   <div className='project-container' >
     <Heading type='project' text={ project.text } />
+    <Link to='/'><Icon type='back' /></Link>
     <RowList type='could-do' items={ couldDos } />
-    <Link to='/*'><Icon type='back' /></Link>
     <FooterContainer type='could-do' />
   </div>
 )
